@@ -8,3 +8,5 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: github-docs-to-wiki
         uses: cmbrose/github-docs-to-wiki@v0.20
+        with:
+          repository: OpenPecha/stt-documentation
