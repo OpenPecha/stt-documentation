@@ -8,21 +8,20 @@
   <br>
 </h1>
 
-## _Project Name_
-_The project name should match its code's capability so that new users can easily understand what it does._
+## stt-documentation
 
 ## Owner(s)
 
-_Change to the owner(s) of the new repo. (This template's owners are:)_
-- [@ngawangtrinley](https://github.com/ngawangtrinley)
-- [@mikkokotila](https://github.com/mikkokotila)
-- [@evanyerburgh](https://github.com/evanyerburgh)
+- [@spsither](https://github.com/spsither)
 
 ## RFXs
 Requests for work (RFWs) and requests for comments (RFCs) associated with this project:
-* [RFX name](#)
-* [RFX name](#)
-* [RFX name](#)
+* [RFW0125: Technical documentation about STT and TTS workflow for other developers ](https://github.com/OpenPecha/Requests/issues/363)
+* [RFC0125: Technical documentation about STT and TTS workflow for other developers ](https://github.com/OpenPecha/Requests/issues/450)
+
+
+* [RFW0112: Tracking STT and TTS models and creating documentation](https://github.com/OpenPecha/Requests/issues/362)
+* [RFC0112: Tracking STT and TTS models and creating documentation](https://github.com/OpenPecha/Requests/issues/452)
 
 ## Table of contents
 <p align="center">
@@ -38,55 +37,28 @@ Requests for work (RFWs) and requests for comments (RFCs) associated with this p
 <hr>
 
 ## Project description
-_Use one of these:_
 
-With _Project Name_ you can _verb_ _noun_...
-
-_Project Name_ helps you _verb_ _noun_...
-
+With stt-documentation you can browse through the documentation of the STT/TTS project in a one stop location without having to jump to several repos.
 
 ## Who this project is for
 This project is intended for _target user_ who wants to _user objective_.
-
-
-## Project dependencies
-Before using _Project Name_, ensure you have:
-* _Prerequisite 1_
-* _Prerequisite 2_
-* _Prerequisite 3..._
-
+This project is intended for STT/TTS ML engineer and other ML engineers who wants to find specific details of the project. The Documents/home.md can also serve as a non technical overview of the project.
 
 ## Instructions for use
-Get started with _Project Name_ by _(write the first step a user needs to start using the project. Use a verb to start.)_.
+Get started with stt-documentation by going to the project Wiki and start browsing.
+
+### Configure stt-documentation
+This project uses GitHub repository action **secrets** to store the Personal Access Token (PAT) with repository permission to update the Wiki for this repo in GitHub actions.
+
+1. Click on your user profile on the top right > `Settings` > `Developer settings` > `Personal access tokens` > `Tokens (classic)`
+2. Click on Generate new token > make sure you give it `repo` scope 
+3. Copy the token 
+3. navigate to the [repo setting](https://github.com/OpenPecha/stt-documentation/settings)
+4. Click on `Secrets and variables` > `Actions` > `New repository secret` 
+5. Give it the name `GH_PERSONAL_ACCESS_TOKEN` and paste in the token from step 3 in Secret 
 
 
-### Install _Project Name_
-1. _Write the step here._ 
-
-    _Explanatory text here_ 
-    
-    _(Optional: Include a code sample or screenshot that helps your users complete this step.)_
-
-2. _Write the step here._
- 
-    a. _Substep 1_ 
-    
-    b. _Substep 2_
-
-
-### Configure _Project Name_
-1. _Write the step here._
-2. _Write the step here._
-
-
-### Run _Project Name_
-1. _Write the step here._
-2. _Write the step here._
-
-
-### Troubleshoot _Project Name_
-1. _Write the step here._
-2. _Write the step here._
+### Troubleshoot stt-documentation
 
 <table>
   <tr>
@@ -99,35 +71,22 @@ Get started with _Project Name_ by _(write the first step a user needs to start 
   </tr>
   <tr>
    <td>
-    _Describe the issue here_
+    PAT can expire
    </td>
    <td>
-    _Write solution here_
-   </td>
-  </tr>
-  <tr>
-   <td>
-    _Describe the issue here_
-   </td>
-   <td>
-    _Write solution here_
+    Generate a new PAT using steps from Configure stt-documentation
    </td>
   </tr>
   <tr>
    <td>
-    _Describe the issue here_
+    Documentation is unclear
    </td>
    <td>
-    _Write solution here_
+    Ask repo owner to update it.
    </td>
   </tr>
 </table>
 
-
-Other troubleshooting supports:
-* _Link to FAQs_
-* _Link to runbooks_
-* _Link to other relevant support information_
 
 
 ## Contributing guidelines
@@ -135,12 +94,9 @@ If you'd like to help out, check out our [contributing guidelines](/CONTRIBUTING
 
 
 ## Additional documentation
-_Include links and brief descriptions to additional documentation._
 
 For more information:
-* [Reference link 1](#)
-* [Reference link 2](#)
-* [Reference link 3](#)
+* [GitHub Wiki](#https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 
 
 ## How to get help
