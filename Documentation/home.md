@@ -13,6 +13,11 @@ Repositories related to STT/TTS are
         - [STT_PC Catalog](https://docs.google.com/spreadsheets/d/1wJ2tPcTec_KnIaN0qcn5fOhBGMzYSHBXmv3kgHYVPlg/edit?usp=sharing)   
 - [pecha-tools-for-stt](https://github.com/OpenPecha/pecha-tools-for-stt)
     - The Next.js web app for annotation and reports
+- [saymore-report-generator](https://github.com/OpenPecha/saymore-report-generator)
+    - STT_MV and STT_NW are annotated on Saymore and uploaded on [MonlamAI GitHub](https://github.com/monlamai) while others are working in stt.pecha.tools
+    
+- [elan_parser](https://github.com/OpenPecha/elan_parser)
+    - Used to generate reports for STT_MV and STT_NW
 - [stt-combine-datasets](https://github.com/OpenPecha/stt-combine-datasets)
     - Combine all the STT/TTS datasets and create dataset for training and benchmark.
 - [stt-wav2vec2](https://github.com/OpenPecha/stt-wav2vec2)
