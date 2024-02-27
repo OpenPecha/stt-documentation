@@ -15,7 +15,7 @@ Repositories related to STT/TTS are
     - The Next.js web app for annotation and reports
 - [saymore-report-generator](https://github.com/OpenPecha/saymore-report-generator)
     - STT_MV and STT_NW are annotated on Saymore and uploaded on [MonlamAI GitHub](https://github.com/monlamai) while others are working in stt.pecha.tools
-    
+
 - [elan_parser](https://github.com/OpenPecha/elan_parser)
     - Used to generate reports for STT_MV and STT_NW
 - [stt-combine-datasets](https://github.com/OpenPecha/stt-combine-datasets)
@@ -28,3 +28,5 @@ Repositories related to STT/TTS are
     - Evaluation of medel performance on benchmark
 - [stt-sagemaker-endpoint](https://github.com/OpenPecha/stt-sagemaker-endpoint)
     - Deploy model on SageMaker Endpoint
+- [stt-inference-api](https://github.com/OpenPecha/stt-inference-api)
+    - FastAPI inference for STT/TTS. Not used currently.
