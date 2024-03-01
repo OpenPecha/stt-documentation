@@ -2,8 +2,9 @@
 
 When using the Transfrom job, the time taken to comple a job depends on the audio segment length, type of the instance used and number of instances. Bellow is the table of experiments
 
-|SM Job name |instance type  |full audio length|instance count|Segment length (sec)|duration (min)|
+|SM Job name |instance type  |full audio length (sec)|instance count|Segment length (sec)|duration (min)|
 |---------------------------|---------------|-------|---|----|--|
+|STT-NS-3500-1709295971938	|ml.m5.xlarge	|3500	|16	|50	 |9 |
 |STT-NS-3500-1709286538203	|ml.m5.xlarge	|3500	|8	|30	 |11|
 |STT-NS-3500-1709290256827	|ml.m5.xlarge	|3500	|8	|50	 |11|
 |STT-NS-3500-1709294277370	|ml.m5.xlarge	|3500	|4	|50	 |17|
