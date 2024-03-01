@@ -2,16 +2,18 @@
 
 When using the Transfrom job, the time taken to comple a job depends on the audio segment length, type of the instance used and number of instances. Bellow is the table of experiments
 
-|SM Job name |instance type  |full audio length (sec)|instance count|Segment length (sec)|duration (min)|
-|---------------------------|---------------|-------|---|----|--|
-|STT-NS-3500-1709295971938	|ml.m5.xlarge	|3500	|16	|50	 |9 |
-|STT-NS-3500-1709286538203	|ml.m5.xlarge	|3500	|8	|30	 |11|
-|STT-NS-3500-1709290256827	|ml.m5.xlarge	|3500	|8	|50	 |11|
-|STT-NS-3500-1709294277370	|ml.m5.xlarge	|3500	|4	|50	 |17|
-|STT-NS-3500-1709271107174	|ml.g4dn.xlarge	|3500	|1	|60	 |60|
-|STT-NS-3500-1709287548567	|ml.m5.xlarge	|3500	|8	|60	 |12|
-|STT-NS-3500-1709284000532	|ml.m5.xlarge	|3500	|8	|60	 |12|
-|STT-NS-3500-1709288457864	|ml.m5.xlarge	|3500	|8	|100 |16|
+|SM Job name |instance type  |full audio length (sec)|instance count|Segment length (sec)|duration (min)|MaxConcurrentTransforms|
+|---------------------------|---------------|-------|---|----|---|--|
+|STT-NS-3500-1709297494092	|ml.m5.xlarge	|3500	|16 |50	 |7  |4 |
+|STT-NS-3500-1709296723865	|ml.m5.xlarge	|3500	|16 |50	 |7  |2 |
+|STT-NS-3500-1709295971938	|ml.m5.xlarge	|3500	|16	|50	 |9  |1 |
+|STT-NS-3500-1709286538203	|ml.m5.xlarge	|3500	|8	|30	 |11 |1 |
+|STT-NS-3500-1709290256827	|ml.m5.xlarge	|3500	|8	|50	 |11 |1 |
+|STT-NS-3500-1709294277370	|ml.m5.xlarge	|3500	|4	|50	 |17 |1 |
+|STT-NS-3500-1709271107174	|ml.g4dn.xlarge	|3500	|1	|60	 |60 |1 |
+|STT-NS-3500-1709287548567	|ml.m5.xlarge	|3500	|8	|60	 |12 |1 |
+|STT-NS-3500-1709284000532	|ml.m5.xlarge	|3500	|8	|60	 |12 |1 |
+|STT-NS-3500-1709288457864	|ml.m5.xlarge	|3500	|8	|100 |16 |1 |
 
 Note that all other variables being equal the best duration was with 8 x `ml.m5.xlarge` with 50 sec or 30 sec segment langth. Since 50 sec will lead to less segments, let's pick that.
 
