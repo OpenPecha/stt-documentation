@@ -17,7 +17,7 @@ Note that all other variables being equal the best duration was with 8 x `ml.m5.
 ## Transcriptioin quality and segment length 
 
 An interesting observation was that, the transcription when the segment length is 50 sec is better than 100 sec for the same model and spec. Bellow are two examples I found illustrating the point.
-The audio file is in [media](../media/STT_NS_3500_chop_00001.aac)
+The audio file is in [media](https://github.com/OpenPecha/stt-documentation/blob/main/media/STT_NS_3500_chop_00001.aac)
 ```
 100 sec segments
 ཆུང་ཆུང་ནས་བྱས་ནས་ད་ལྟ་བར་དུ་ཀ་ཅི་ད་ [བོད་ཡིམ་] འདྲ་བོ་ལབ་ན་རེད་རཱ།
