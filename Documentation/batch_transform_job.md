@@ -9,9 +9,9 @@ When using the Transfrom job, the time taken to comple a job depends on the audi
 |STT-NS-0200-1709307876444 |ml.m5.xlarge   |200  |8	 |50  |2  |6  |
 |STT-NS-0200-1709308364968 |ml.m5.xlarge   |200	 |1	 |50  |2  |7  |
 |STT-NS-0200-1709309343000 |ml.m5.xlarge   |200	 |1	 |50  |1  |8  |
+|STT-NS-3500-1709316771523 |ml.m5.xlarge   |3500 |14 |50  |2  |7  |
 |STT-NS-3500-1709296723865 |ml.m5.xlarge   |3500 |16 |50  |2  |7  |
 |STT-NS-3500-1709297494092 |ml.m5.xlarge   |3500 |16 |50  |4  |7  |
-|STT-NS-3500-1709316771523 |ml.m5.xlarge   |3500 |14 |50  |2  |7  |
 |STT-NS-3500-1709317339925 |ml.m5.xlarge   |3500 |13 |50  |2  |8  |
 |STT-NS-3500-1709310474604 |ml.m5.xlarge   |3500 |12 |50  |2  |8  |
 |STT-NS-3500-1709311731770 |ml.m5.xlarge   |3500 |8	 |50  |4  |8  |
