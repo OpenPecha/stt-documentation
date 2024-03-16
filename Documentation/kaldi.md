@@ -17,6 +17,8 @@ Kaldi does not generalize well but the model is efficient and scales well. It wo
 
 ## Using the [Amdo Exmaple](https://github.com/kaldi-asr/kaldi/tree/master/egs/xbmu_amdo31)
 
+The resulting data can be found [here](https://github.com/OpenPecha/stt-documentation/releases/download/xbmu_amdo31/data.tar.gz)
+
 ```sh
 after installing kaldi change to egs
 cd /home/username/kaldi/egs/xbmu_amdo31/s5
