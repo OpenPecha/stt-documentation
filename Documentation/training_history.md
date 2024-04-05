@@ -19,3 +19,20 @@ and had to be run for ~10 days.
 The best performing model was found at step number 685000 where the eval/cer was 0.1987 and eval/loss 0.4468. Suprisingly the best performing checkpoint on benchmark was where eval/loss was minimum and not where eval/cer was min.
 
 openpecha/wav2vec2_run9 got 23.12% CER on the openpecha/tibetan-voice-benchmark
+
+### openpecha/wav2vec2_run10
+
+Taking data snapshot at 4th April 2024. For 683.68 hours of data with the following distribution 
+
+|Department | Hours      |
+|-----------|------------|
+|STT_AB     | 113.049924 |
+|STT_CS     | 98.375647  |
+|STT_MV     | 8.113259   |
+|STT_NS     | 173.804951 |
+|STT_PC     | 15.606155  |
+|STT_TT     | 274.736280 |
+
+Objective: compare the current facebook/wav2vec2-large-xlsr-53 with facebook/wav2vec2-xls-r-300m with the same data (till 4th April 2024). 
+The datasets are in s3://monlam.ai.stt/dataset/wav2vec2/ 
+The datasets there output of [prepare_dataset](https://github.com/OpenPecha/stt-wav2vec2/blob/main/prepare_dataset.ipynb) function. The same can be used for both the pretrained models.
