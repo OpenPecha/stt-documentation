@@ -7,7 +7,7 @@ The benchmark performance history on [openpecha/tibetan-voice-benchmark](https:/
 |-----------|-----------|-------------------|-----------|-------|-------|-------|------|
 |spsither/wav2vec2_run10.605    |wav2vec2   |21.26% |5.36%  |35.59% |27.40% |22.48% |10.22% |
 |openpecha/wav2vec2_run8	    |wav2vec2	|27.01%	|4.09%	|41.45%	|42.05%	|27.43%	|14.73%|
-|openpecha/wav2vec2_run9 ( 685 )|wav2vec2	|23.12%	|5.55%	|35.68%	|35.58%	|22.96%	|11.20%|
+|openpecha/wav2vec2_run9        |wav2vec2	|23.12%	|5.55%	|35.68%	|35.58%	|22.96%	|11.20%|
 |spsither/wav2vec2_run9.640	    |wav2vec2	|23.19%	|5.51%	|35.79%	|35.86%	|23.00%	|23.00%|
 |TenzinGayche/whisper-small-3	|whisper	|40.42%	|9.21%	|51.00%	|80.67%	|34.71%	|22.64%|
 
@@ -29,7 +29,7 @@ and had to be run for ~10 days.
 ##### Checkpoint selection
 The best performing model was found at step number 685000 where the eval/cer was 0.1987 and eval/loss 0.4468. Suprisingly the best performing checkpoint on benchmark was where eval/loss was minimum and not where eval/cer was min.
 
-openpecha/wav2vec2_run9 got 23.12% CER on the openpecha/tibetan-voice-benchmark
+openpecha/wav2vec2_run9 got 23.12% CER on the openpecha/tibetan-voice-benchmark. This checkpoint was taken at step 685000.
 
 ### openpecha/wav2vec2_run10
 
@@ -52,9 +52,9 @@ Taking data snapshot at 4th April 2024. For 683.68 hours of data with the follow
 
 ##### Training Environment
 This wav trained at local computer with the following spec
-GPU: NVIDIA GeForce RTX 4090/PCIe/SSE2 / NVIDIA Corporation
-CPU: AMD® Ryzen 9 7900 12-core processor × 24
-RAM: 64.0 GiB
+- GPU: NVIDIA GeForce RTX 4090/PCIe/SSE2 / NVIDIA Corporation
+- CPU: AMD® Ryzen 9 7900 12-core processor × 24
+- RAM: 64.0 GiB
 
 ##### Hyperparameters
  - per_device_train_batch_size=8
