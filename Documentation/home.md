@@ -10,7 +10,8 @@ Repositories related to STT/TTS are
         - [STT_CS Catalog | Children Speech](https://docs.google.com/spreadsheets/d/1-WuaaWKIHJfGQhDXVSwG-v2qGqxQYVqqk7lFeHyxEzk/edit?usp=sharing)
         - [STT_MV Catalog | Tibetan Movies](https://docs.google.com/spreadsheets/d/1UOhU5Jcge89URmfagDf7Imm_QP74opOx6QsS2LaOSd0/edit?usp=sharing)
         - [STT_AB Catalog | Audio Book](https://docs.google.com/spreadsheets/d/1yKSzConuVWo8BuMDs2mabF5iiBKUz2wF--LIabFN6QE/edit?usp=sharing)
-        - [STT_PC Catalog | Podcast](https://docs.google.com/spreadsheets/d/1wJ2tPcTec_KnIaN0qcn5fOhBGMzYSHBXmv3kgHYVPlg/edit?usp=sharing)   
+        - [STT_PC Catalog | Podcast](https://docs.google.com/spreadsheets/d/1wJ2tPcTec_KnIaN0qcn5fOhBGMzYSHBXmv3kgHYVPlg/edit?usp=sharing)
+        - [STT_HS Catalog | History](https://docs.google.com/spreadsheets/d/1SjlnWsr6YVhBIW6EaS0ITmboDmEuj2VnxGRNL50OPx4/edit?usp=sharing)   
 - [pecha-tools-for-stt](https://github.com/OpenPecha/pecha-tools-for-stt)
     - The Next.js web app for annotation and reports
 - [saymore-report-generator](https://github.com/OpenPecha/saymore-report-generator)
