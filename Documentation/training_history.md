@@ -5,7 +5,7 @@ The benchmark performance history on [openpecha/tibetan-voice-benchmark](https:/
 
 |Model Name	| Model Type       |Benchmark mean CER |STT_AB | STT_CS	| STT_MV | STT_NS | STT_TT |
 |-----------|------------------|-------------------|-------|--------|--------|--------|--------|
-| spsither/wav2vec2_run10.1340 | wav2vec2 | 20.42% | 4.78% | 34.42% | 25.86% | 22.21% |  9.72% |
+| openpecha/wav2vec2_run10     | wav2vec2 | 20.42% | 4.78% | 34.42% | 25.86% | 22.21% |  9.72% |
 | spsither/wav2vec2_run10.1055 | wav2vec2 | 20.55% | 4.73% | 34.57% | 26.44% | 22.08% |  9.79% |
 | spsither/wav2vec2_run10.950  | wav2vec2 | 20.61% | 4.74% | 34.52% | 26.42% | 22.30% |  9.95% |
 | spsither/wav2vec2_run10.855  | wav2vec2 | 20.76% | 5.12% | 34.63% | 26.81% | 22.26% |  9.91% |
@@ -64,13 +64,19 @@ This wav trained at local computer with the following spec
 - CPU: AMD® Ryzen 9 7900 12-core processor × 24
 - RAM: 64.0 GiB
 
+The model was trained for about ~8 days
+
 ##### Hyperparameters
  - per_device_train_batch_size=8
  - gradient_accumulation_steps=2
- - num_train_epochs=25
+ - num_train_epochs=40
  - fp16=True
  - learning_rate=3e-5
  - warmup_steps=500
 
 ##### Checkpoint selection
-The model at step 605000 has eval/loss of 0.4269. This checkpoint was pushed as spsither/wav2vec2_run10.605 to HuggingFace.
+The model at step 1340000 has eval/loss of 0.4124. This checkpoint was pushed as openpecha/wav2vec2_run10 to HuggingFace.
+
+### openpecha/mms_300_v1
+
+This model was trained on the same environment, data and hyperparameters as openpecha/wav2vec2_run10. Started the training on Apr 15th.
