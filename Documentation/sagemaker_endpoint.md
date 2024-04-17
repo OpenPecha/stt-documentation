@@ -24,3 +24,5 @@ CUDA out of memory. Tried to allocate 3.81 GiB (GPU 0; 14.58 GiB total capacity;
 ```
 
 If using API Gateway and Lambda to run the SageMaker inference the largest audio length I could POST was 145 seconds before getting 413 Request Entity Too Long error. Thus using S3 URL to transfer the file is better.
+
+Refer [this](https://www.philschmid.de/automatic-speech-recognition-sagemaker) blog for deploying.
