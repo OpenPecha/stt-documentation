@@ -5,6 +5,7 @@ The benchmark performance history on [openpecha/tibetan-voice-benchmark](https:/
 
 |Model Name	| Model Type       |Benchmark mean CER |STT_AB | STT_CS	| STT_MV | STT_NS | STT_TT |
 |-----------|------------------|-------------------|-------|--------|--------|--------|--------|
+| spsither/mms_300_v1.900      | mms_300  | 19.89% | 4.71% | 33.63% | 24.72% | 21.90% |  9.44% |
 | spsither/mms_300_v1.780      | mms_300  | 20.29% | 4.63% | 34.09% | 25.70% | 22.21% |  9.75% |
 | openpecha/wav2vec2_run10     | wav2vec2 | 20.42% | 4.78% | 34.42% | 25.86% | 22.21% |  9.72% |
 | spsither/mms_300_v1.630      | mms_300  | 20.50% | 5.32% | 34.36% | 25.68% | 22.15% |  9.92% |
