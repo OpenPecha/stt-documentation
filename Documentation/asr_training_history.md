@@ -1,9 +1,9 @@
 
-# Training history
+# ASR Training history
 
 The benchmark performance history on [openpecha/tibetan-voice-benchmark](https://huggingface.co/datasets/openpecha/tibetan-voice-benchmark) is bellow
 
-|Model Name	| Model Type          |Benchmark mean CER |STT_AB | STT_CS	| STT_MV | STT_NS | STT_TT |
+|Model Name	| Model Type          |Benchmark mean CER |STT_AB | STT_CS | STT_MV | STT_NS | STT_TT |
 |-----------|---------------------|-------------------|-------|--------|--------|--------|--------|
 | openpecha/tibetan_asr_mms300_v1 | mms_300  | 19.89% | 4.71% | 33.63% | 24.72% | 21.90% |  9.44% |
 | spsither/mms_300_v1.780         | mms_300  | 20.29% | 4.63% | 34.09% | 25.70% | 22.21% |  9.75% |
@@ -91,7 +91,7 @@ The model was trained for about ~8 days. openpecha/tibetan_asr_mms300_v1 was at 
 Traine with and without freezing the feature extractor `model.freeze_feature_extractor()` and see the effects.
 
 ##### Data used
-Taking data snapshot at 23th April 2024. For 771.30 hours of data with the following distribution 
+Taking data snapshot at 23rd April 2024. For 771.30 hours of data with the following distribution.
 
 |Department | Hours  |
 |-----------|--------|
@@ -101,3 +101,5 @@ Taking data snapshot at 23th April 2024. For 771.30 hours of data with the follo
 |STT_NS     | 191.96 |
 |STT_PC     | 21.94  |
 |STT_TT     | 284.75 |
+
+Training started on Apr 23rd evening.
