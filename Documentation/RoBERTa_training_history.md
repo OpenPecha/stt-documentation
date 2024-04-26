@@ -1,10 +1,10 @@
 # RoBERTa Training history
 
-|Notebook Name  | num parameters | Instance      |Data  |Line merge | Vocab size | Train,val batch size | Tain,val split |
-|---------------|----------------|---------------|------|-----------|------------|----------------------|----------------|
-| gold-only     | 110m           | ml.g5.2xlarge | gold | 6         | 86761      | 16,16                | 1.9%           |
-| test          | 83m            | ml.g5.4xlarge | A    | 7         | 52000      | 24,20                | 5.1%           |
-| RoBERTa-large | 342m           | ml.g5.4xlarge | gold | 1,3,5     | 86761      | 24,24                | 1.9%           |
+|Notebook Name  | num parameters | Instance      |Data   |Line merge | Tokenizer       | Vocab size | Train,val batch size | Tain,val split |
+|---------------|----------------|---------------|-------|-----------|-----------------|------------|----------------------|----------------|
+| gold-only     | 110m           | ml.g5.2xlarge | gold  | 6         | tokenizer_G     | 86761      | 16,16                | 1.9%           |
+| test          | 83m            | ml.g5.4xlarge | A     | 7         | tokenizer_A     | 52000      | 24,20                | 5.1%           |
+| RoBERTa-large | 416m           | ml.g5.4xlarge | A_f_d | 1         | tokenizer_A_f_d | 159159     | 24,24                | 11%            |
 
 
 ### RoBERTa-large
@@ -18,5 +18,5 @@
  - per_device_eval_batch_size  = 24
  - gradient_checkpointing = True
  - fp16 = True
- - gradient_accumulation_steps = 2
+ - gradient_accumulation_steps = 1
  - group_by_length = True
