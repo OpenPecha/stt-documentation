@@ -6,6 +6,16 @@
 | test          | 83m            | ml.g5.4xlarge | A     | 7         | tokenizer_A     | 52000      | 24,20                | 5.1%           |
 | RoBERTa-large | 416m           | ml.g5.4xlarge | A_f_d | 1         | tokenizer_A_f_d | 159159     | 24,24                | 11%            |
 
+# Tokenizers
+
+|Tokenizer      | Data                                              | VOCAB_SIZE    | min_frequency | tokenizer.vocab_size| Note  |
+|---------------|---------------------------------------------------|---------------|---------------|---------------------|-------|
+| tokenizer_S_a | spsither/tibetan_monolingual_S_cleaned_train_test | 256000        | 2             | 121231              |BLBPE  |
+| tokenizer_S_b | spsither/tibetan_monolingual_S_cleaned_train_test | 52000         | 2             | 52000               |BLBPE  |
+| tokenizer_S_c | spsither/tibetan_monolingual_S_cleaned_train_test | 52000         | 2             | 5200                |Unigram|
+| tokenizer_S_d | spsither/tibetan_monolingual_S_cleaned_train_test | 52000         | 2             | 5200                |Split  |
+
+
 
 ### RoBERTa-large_v1
 
