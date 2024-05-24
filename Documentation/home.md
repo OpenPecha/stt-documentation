@@ -12,6 +12,7 @@ Repositories related to STT/TTS are
         - [STT_AB Catalog | Audio Book](https://docs.google.com/spreadsheets/d/1yKSzConuVWo8BuMDs2mabF5iiBKUz2wF--LIabFN6QE/edit?usp=sharing)
         - [STT_PC Catalog | Podcast](https://docs.google.com/spreadsheets/d/1wJ2tPcTec_KnIaN0qcn5fOhBGMzYSHBXmv3kgHYVPlg/edit?usp=sharing)
         - [STT_HS Catalog | History](https://docs.google.com/spreadsheets/d/1SjlnWsr6YVhBIW6EaS0ITmboDmEuj2VnxGRNL50OPx4/edit?usp=sharing)   
+        - [STT_NV Catalog | News](https://docs.google.com/spreadsheets/d/1iKV46XlcFAWXOMq-I2dZXGZ7CttC2eW3/edit?usp=sharing&ouid=113331048033531729878&rtpof=true&sd=true)
 - [pecha-tools-for-stt](https://github.com/OpenPecha/pecha-tools-for-stt)
     - The Next.js web app for annotation and reports
 - [saymore-report-generator](https://github.com/OpenPecha/saymore-report-generator)
