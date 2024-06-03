@@ -107,3 +107,21 @@ Training started on Apr 23rd evening. Stopped on Apr 30rd noon.
 
 ##### Checkpoint selection
 Checkpoint at step 1190000 pushed to HF.
+
+### openpecha/tibetan_asr_mms300_v3
+
+##### Data used
+Taking data snapshot at 24th may 2024. For 1006.15 hours of data with the following distribution.
+
+|Department | Hours  |
+|-----------|--------|
+|STT_AB     | 145.65 |
+|STT_CS     | 123.58 |
+|STT_HS     | 2.35   |
+|STT_MV     | 162.84 |
+|STT_NS     | 203.44 |
+|STT_NW     | 34.79  |
+|STT_PC     | 33.26  |
+|STT_TT     | 300.25 |
+
+Training started on May 30th
