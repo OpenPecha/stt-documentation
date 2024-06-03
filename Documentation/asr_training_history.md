@@ -5,6 +5,8 @@ The benchmark performance history on [openpecha/tibetan-voice-benchmark](https:/
 
 |Model Name	| Model Type          |Benchmark mean CER |STT_AB | STT_CS | STT_MV | STT_NS | STT_TT |
 |-----------|---------------------|-------------------|-------|--------|--------|--------|--------|
+| spsither/mms_300_v3.800*        | mms_300  | 18.45% | 4.30% | 33.74% | 18.27% | 21.88% |  8.43% |
+| spsither/mms_300_v3.800         | mms_300  | 19.54% | 4.83% | 34.59% | 19.08% | 23.04% | 10.61% |
 | openpecha/tibetan_asr_mms300_v1 | mms_300  | 19.89% | 4.71% | 33.63% | 24.72% | 21.90% |  9.44% |
 | spsither/mms_300_v2.1190        | mms_300  | 20.26% | 4.63% | 34.84% | 24.94% | 22.21% |  9.37% |
 | spsither/mms_300_v1.780         | mms_300  | 20.29% | 4.63% | 34.09% | 25.70% | 22.21% |  9.75% |
@@ -20,6 +22,8 @@ The benchmark performance history on [openpecha/tibetan-voice-benchmark](https:/
 | openpecha/wav2vec2_run9         | wav2vec2 | 23.12% | 5.55% | 35.68% | 35.58% | 22.96% | 11.20% |
 | spsither/wav2vec2_run9.640      | wav2vec2 | 23.19% | 5.51% | 35.79% | 35.86% | 23.00% | 23.00% |
 | TenzinGayche/whisper-small-3    | whisper  | 40.42% | 9.21% | 51.00% | 80.67% | 34.71% | 22.64% |
+
+\* evaluate after normalizing shae to tsag
 
 ### openpecha/wav2vec2_run9
 
