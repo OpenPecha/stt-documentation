@@ -129,4 +129,4 @@ Taking data snapshot at 24th may 2024. For 1006.15 hours of data with the follow
 |STT_PC     | 33.26  |
 |STT_TT     | 300.25 |
 
-Training started on May 30th
+Training started on May 30th. spsither/mms_300_v3.1020 has lowest val loss so far.
